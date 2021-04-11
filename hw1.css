@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+header {
+  background-color: #1565c0;
+  color: #e3f2fd;
+  margin: 0;
+  display: flex;
+}
+header img {
+  max-width: 4em;
+  max-height: 4em;
+}
+header h1 {
+  margin: auto 1%;
+  line-height: 2em;
+  font-family: Verdana, sans-serif;
+}
+
+nav {
+  background-color: #1b4f72;
+  line-height: 2em;
+  font-size: 1.25em;
+}
+nav li {
+  display: inline;
+  margin: 0 0.5%;
+}
+nav li a {
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+  color: #d4e6f1;
+}
+nav li a:hover {
+  color: #f9e79f;
+}
+
+#slogan {
+  min-height: 400px;
+  background-color: royalblue;
+  background-position-y: 55%;
+  opacity: 0.75;
+  margin: 10px auto;
+  padding: 270px 45px 0 35px;
+  box-sizing: border-box;
+}
+
+#slogan h1 {
+  opacity: 1;
+  color: white;
+  font-size: 3em;
+  font-family: Verdana, sans-serif;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #fef9e7;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  color: #566573;
+}
